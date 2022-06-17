@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
 *{
     box-sizing: border-box;
 }
 
 body{
     margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .navbar {
@@ -19,6 +21,10 @@ body{
     flex: 20%;
     border: 1px solid red;
     text-align: center;
+}
+
+.logo h1{
+    font-family: 'Kaushan Script', cursive;
 }
 
 .menu {
