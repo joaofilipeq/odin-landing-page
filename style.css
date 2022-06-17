@@ -5,3 +5,27 @@
 body{
     margin: 0;
 }
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex: 20%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.menu {
+    flex: 80%;
+    border: 1px solid green;
+    text-align: right;
+    padding: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
