@@ -95,3 +95,43 @@ body{
     background-color: white;
     color: black;
 }
+
+section {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: auto;
+    text-align: center;
+    padding: 5%;
+}
+
+.sectioninfo {
+    
+    width: 100%;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    
+}
+
+.services {
+    display: inline-block;
+    
+}
+
+.cards{
+    display: inline-block;
+    width: 22%;
+    padding: 20px;
+    margin: 1%;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.cards:hover{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    cursor: pointer;
+}
